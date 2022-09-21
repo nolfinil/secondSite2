@@ -1,0 +1,84 @@
+img {
+    margin-top: 20px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px black;
+    padding-right: 10px ;
+    margin-bottom: 20px;
+}
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+.list-header {
+    font-weight: 700;
+}
+
+.list-content {
+    background-color: rgb(216, 246, 239);
+}
+
+.fade-block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(8, 112, 32, 0.69);
+}
+
+.modal-window {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-hidden {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+[data-name], [data-tab] {
+    cursor: pointer;
+}
+/*
+My presets
+ */
+.list-group {
+    margin-bottom: 10px;
+}
+.support h2{
+    text-align: center;
+}
+.contact input,
+.contact textarea{
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black ;
+    background: transparent;
+    color: grey;
+    outline: none;
+    padding: 15px 0px 10px;
+    font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .contact {
+    width: 50%;
+}
+.row > .contact:first-child {
+    margin-right: 20px;
+}
+#crucial{
+    margin-top: 20px    ;
+}
+
